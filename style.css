@@ -1,0 +1,319 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+body {
+    background-image: url(pictures/bg\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+}
+
+#container {
+    font-size: 1.1rem;
+    width: 100vw;
+}
+
+
+.navbar-brand {
+    padding-left: 0.5rem;
+}
+
+.navbar-nav .nav-item {
+    padding: 0.1rem;
+}
+
+section .container  {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    padding-right: 30rem;
+    height: 78vh;
+    padding-top: 0;
+}
+
+section .container .btn {
+    width: 6rem;
+}
+
+
+#about {
+    background-color: rgb(58, 57, 57);
+    max-width: 100vw;
+}
+
+.us-sec {
+    padding-top: 1rem;
+}
+
+section #about .container2 {
+    max-width: 100vw;
+    margin: auto;
+}
+
+#about .container2 .text {
+    font-size: 32px;
+    text-align: center;
+    color: rgb(213, 223, 231);
+    border-bottom: 1px solid white;
+}
+
+
+#about .container2 .con {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#about .container2 .con .card-img-top1{
+    width: auto;
+}
+
+
+
+#about .container2 .con .card {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(77, 75, 75);
+    color: rgb(241, 240, 240);
+}
+
+#services {
+    background-color: darkgrey;
+}
+
+#services .container3 {
+    padding: 1rem;
+}
+
+
+#services .container3 .text {
+    font-size: 32px;
+    text-align: center;
+    color: rgb(248, 248, 248);
+    border-bottom: 1px solid white;
+}
+
+#services .container3 .col-md-6 {
+    padding-top: 1rem;
+}
+
+#contact {
+    background-color: gray;
+    max-width: 100vw;
+    margin: 0;
+}
+
+.us-sec1 {
+    padding-top: 1rem;
+    width: 100vw;
+}
+
+#contact .container4 {
+    padding: 0.5rem;
+}
+
+#contact .container4 .text {
+    font-size: 32px;
+    text-align: center;
+    color: rgb(248, 248, 248);
+    border-bottom: 1px solid white;
+}
+
+
+#contact .container4 .sec {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    width: auto;
+   
+}
+
+
+#contact .container4 .sec i {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    color: black;
+}
+
+#contact .container4 .sec p {
+    padding: 0.5rem 1rem 0rem 1rem;
+    margin-bottom: 0;
+    margin-right: 21rem;
+
+}
+
+#contact .container4 .sec .pra {
+    margin-right:11rem ;
+}
+
+#footer {
+    padding: 1rem;
+    background-color: rgb(31, 30, 30);
+    max-width: 100vw;
+}
+
+#footer .pra {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+
+
+@media (min-width: 1025px) {
+    .navbar .nav-item {
+        padding: 0.1rem;
+    }
+
+    section .container {
+        width: 70rem;
+        padding-right: 290px;
+    }
+
+    section .container .text {
+        font-size: 32px;
+    }
+
+    section .container p {
+        font-size: 16px;
+    }
+
+    
+    section .container .btn {
+        font-size: 13px;
+        border-radius: 4px;
+        padding: 1px 5px;
+        width: 84px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navbar .navbar-toggler {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    section .container {
+        padding: 0px 50px 0px 0px;
+    }
+
+    section .container .text {
+        font-size: 30px;
+    }
+
+    .navbar .nav-link {
+        padding: 4px;
+        font-size: 12px;
+    }
+
+    section .container .btn {
+        padding: 4px 0px;
+        width: 82px;
+        font-size: 11px;
+    }
+
+
+
+}
+
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
+    .navbar .navbar-toggler {
+        font-size: 10px;
+        padding: 4px 7px;
+    }
+
+    section .container .text {
+        font-size: 28px;
+    }
+
+     section .container {
+        width: 140rem;
+        padding: 0.1rem;
+    }
+
+    #about .container2 .con .card {
+       width: 12rem;
+    
+    }
+
+
+    #about .con .card {
+        width: 12rem;
+    }
+
+    #about .card-body {
+        padding: 0.5rem;
+    }
+
+
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 576px) {
+   
+    .navbar .navbar-brand {
+        font-size: 14px;
+        padding-left: 2px;
+    }
+
+    .navbar .navbar-toggler {
+        font-size: 8px;
+        padding: 4px 6px;
+    }
+    
+    .navbar .nav-link {
+        padding: 0.1rem;
+        font-size: 9px;
+    }
+
+    section .container {
+        width: 130rem;
+        padding: 0.1rem;
+    }
+
+    section .container .text {
+        font-size: 22px;
+    }
+
+    section .container p {
+        font-size: 14px;
+    }
+
+    section .container .btn {
+        font-size: 12px;
+        border-radius: 4px;
+        padding: 3px 6px;
+        width: 80px;
+    }
+
+
+}
+
+    
